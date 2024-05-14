@@ -27,7 +27,7 @@
         <choose>
             <when condition="@(context.Response.StatusCode == 500)">
                 <return-response>
-                    <set-status code="550" reason="backend call error captured by APIM" />
+                    <set-status code="550" reason="backend call error captured by APIM." />
                     <set-header name="CustomHeader" exists-action="override">
                         <value>Error captured and sanitized by APIM</value>
                     </set-header>
