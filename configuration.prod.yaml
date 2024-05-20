@@ -1,0 +1,5 @@
+namedValues:
+  - name: myurl
+    properties:
+      displayName: myurl
+      value: "https://www.myurl2.com"
