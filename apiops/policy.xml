@@ -9,6 +9,7 @@
     - Policies are applied in the order of their appearance, from the top down.
 -->
 <policies>
+    
     <inbound>
         <cors allow-credentials="false">
             <allowed-origins>
